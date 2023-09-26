@@ -1,0 +1,81 @@
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-size: 40px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.underline {
+  display: flex;
+  justify-content: center;
+  background-color: chartreuse;
+  width: 7rem;
+  height: 0.25rem;
+}
+
+.destination {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.8rem;
+  padding: 5rem;
+}
+.destinationlist {
+  position: relative;
+  border-radius: 12px;
+  min-height: 30rem;
+  max-height: 50rem;
+  background-color: azure;
+}
+
+.destinationlist img {
+  width: 100%;
+  height: 15rem;
+}
+.price {
+  position: absolute;
+  background-color: green;
+  top: 0;
+  right: 0;
+  color: white;
+  padding: 0.2rem;
+}
+.details {
+  padding: 1rem;
+}
+
+.tour-details h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.details p {
+  line-height: 1.5;
+}
+
+.detail-btn {
+  background: transparent;
+  border: transparent;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: green;
+}
+
+.not-intrested {
+  background: transparent;
+  border-radius: 14px;
+  cursor: pointer;
+  border: 1px solid green;
+  padding: 0.4rem 7rem;
+}
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
